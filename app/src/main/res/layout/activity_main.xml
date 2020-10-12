@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnShow_Toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="63dp"
+        android:text="Show Toast" />
+
+    <EditText
+        android:id="@+id/etUser_Message"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:hint="Enter Your Message"
+        android:textColor="@android:color/black"
+        android:ems="10"
+        />
+
+    <Button
+        android:id="@+id/btnSendMessage_to_SecondActivity"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:textColor="@android:color/black"
+        android:hint="Move to Second Activity" />
+
+    <Button
+        android:id="@+id/btnSendData_to_DifferApps"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="420dp"
+        android:hint="Implicit Intent "
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/btnRecyclerView"
+        android:layout_width="171dp"
+        android:layout_height="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="507dp"
+        android:hint="Recycler View "
+        android:textColor="@android:color/black" />
+
+
+</RelativeLayout>
